@@ -12,7 +12,12 @@
 # Dado la siguiente lista de números, utilizar "for"
 # para recorrer toda la lista y realizar la sumatoria de todos los números
 # La sumatoria se deberá ir guardando en la variable "suma"
+print("ejercicio 1")
 numeros = [1, 5, -1, 6, 10, 2, -5]
 suma = 0   # Variable ya inicializada, la suma arranca en cero
-
+for i in numeros:
+    suma = suma + i
+    
+print("La suma total de los numeros es igual a",suma)
+print("terminamos!")
 print("terminamos!, el resultado final almacenado en suma debe ser 18")
